@@ -1,0 +1,127 @@
+/* Reset default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #033747;
+    color: white;
+    font-size: 16px;
+}
+
+/* Taskbar styles */
+.taskbar {
+    padding: 10px;
+    text-align: center;
+}
+
+.taskbar p {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Navigation menu styles */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li:nth-child(1) a { /* Home */
+    color: yellow; /* Change to your desired color */
+}
+
+nav ul li:nth-child(2) a { /* About */
+    color: yellow; /* Change to your desired color */
+}
+
+nav ul li:nth-child(3) a { /* Services */
+    color: yellow; /* Change to your desired color */
+}
+
+nav ul li:nth-child(4) a { /* Contact */
+    color: yellow; /* Change to your desired color */
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9c69;
+}
+
+/* Content styles */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title styles */
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Description styles */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Social Handles styles */
+nav ul li a i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Social Handles hover effect */
+nav ul li a:hover i {
+    color: #ff9c69;
+}
+
+.content-item {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Adjust the height as needed */
+}
+
+.content-item .img2{
+    max-width: 100%; /* Ensure images don't exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Content styles */
+.content {
+    background-color: lightblue; /* Change to your desired background color */
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
